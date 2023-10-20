@@ -57,7 +57,7 @@ function initial() {
 
 var corsOptions = {
   credentials: true,
-  origin: ["http://localhost:8081"]
+  origin: ["https://seekver.netlify.app"]
 };
 
 app.use(cors(corsOptions));
